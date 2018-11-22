@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Alexmhack/Socket.io-Chatting/issues"
   },
-  "homepage": "https://github.com/Alexmhack/Socket.io-Chatting#readme"
+  "homepage": "https://github.com/Alexmhack/Socket.io-Chatting#readme",
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "socket.io": "^2.1.1"
+  }
 }
