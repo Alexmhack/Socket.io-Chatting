@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Alexmhack/Socket.io-Chatting#readme",
   "dependencies": {
-    "browserify": "^16.2.3"
+    "browserify": "^16.2.3",
+    "express": "^4.16.4"
   }
 }

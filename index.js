@@ -1,14 +1,10 @@
-const io = require('socket.io-client')('http://localhost:8080');
+var app = require('express')();
+var http = require('http').Server(app);
 
-// , {
-// 	path: '/',
-// 	serveClient: false,
-// 	pingInterval: 10000,
-// 	pingTimeout: 5000,
-// 	cookie: false
-// 	// secure: true
-// });
+app.get('/', (req, res) => {
+	res.send('<h1>Hello World!!</h1>');
+});
 
-io.on('connect', (socket) => {
-	console.log('connection established...' + socket);
+http.listen(3000, () => {
+	console.log('listening on *:3000');
 })
